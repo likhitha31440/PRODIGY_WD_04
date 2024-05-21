@@ -1,0 +1,250 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    background: #333;
+    padding: 20px 0; 
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 30px; 
+    display: block;
+    font-size: 18px; 
+}
+
+nav ul li a:hover {
+    background: #555;
+    border-radius: 4px;
+}
+
+section {
+    padding: 100px 0;
+    margin-top: 70px; 
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#home {
+    text-align: center;
+    background: #f4f4f4;
+    padding: 50px 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+#about, #projects, #skills, #contact {
+    background: #fff;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+#about .container {
+    border: 2px solid #ccc; 
+    padding: 20px;
+    border-radius: 10px;
+    background: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-list {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+}
+
+.project-item {
+    background: #f4f4f4;
+    padding: 20px;
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.project-item h3 {
+    margin-top: 0;
+}
+
+.project-item p {
+    margin: 10px 0;
+}
+
+.project-item a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #333;
+    text-decoration: none;
+    background: #ddd;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.project-item a:hover {
+    background: #ccc;
+}
+
+.project-item img {
+    width: 300px; 
+    height: auto; 
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #555;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+    background: #ddd;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+.social-links a:hover {
+    background: #ccc;
+}
+
+#skills {
+    background: #f4f4f4;
+    padding: 100px 0;
+}
+
+.skills-container {
+    border: 2px solid #ccc; 
+    padding: 20px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contact {
+    background: #fff;
+    padding: 100px 0;
+}
+
+.contact-container {
+    border: 2px solid #ccc; 
+    padding: 20px;
+    border-radius: 10px;
+    background: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h3 {
+    margin-top: 0;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info ul li {
+    margin-bottom: 10px;
+}
+
+.contact-info ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contact-info ul li a:hover {
+    text-decoration: underline;
+}
